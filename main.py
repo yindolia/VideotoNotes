@@ -1,8 +1,6 @@
 from moviepy.editor import *
 import os
 import time
-import json
-import re
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
@@ -13,7 +11,6 @@ from langchain_community.document_loaders import JSONLoader
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
-import cv2
 
 import avutils as av
 import utils as ut
@@ -99,7 +96,7 @@ guide_chain = (
 
 
 url = 'https://www.youtube.com/watch?v=zduSFxRajkE'
-path = '/Users/adamlucek/Documents/Jupyter/karpathy_guide_challenge'
+path = ''
 
 print(f"Downloading Video & Audio, Runtime: {show_current_runtime()}")
 # download video, audio, and details
