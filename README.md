@@ -1,5 +1,5 @@
 # VideotoNotes
-Submitted a proposal for project in a seminar. The report can be found [here](AI-Sem1Yogesh-Singh.pdf)
+Submitted a proposal for project in a seminar. The report can be found [here](https://drive.google.com/file/d/1AYH6f5JiyJaLIx-7oH7ZHQ1_gbDlBphV/view?usp=sharing)
 
 In this Solution used LLM to solve this problem of **converting video lectures into readable notes**.
 
